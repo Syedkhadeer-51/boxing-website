@@ -18,7 +18,7 @@ const About = () => {
           We are here to help you achieve your health and fitness goals with focus training of mind and body. With a blend of my expertise in Boxing fitness, the fitness module is created in such a way that you will enjoy your workout session and aim everyday to do more and more
           </div>
           <div className='text-center my-3 w-50'>
-          <button type="button" class="btn prinary-btn w-100">CONTINUE</button>
+          <button type="button" className="btn prinary-btn w-100">CONTINUE</button>
           </div>
         </div>
       </div>

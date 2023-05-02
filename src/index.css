@@ -29,3 +29,39 @@
   font-family: 'Anton', sans-serif;
   font-size:20px;
 }
+.package-card{
+  transition: all 0.2s ease-in-out;
+  border:1px solid #FFFFFF;
+  font-family: 'Hind', sans-serif;
+  font-size:22px; 
+  background-color:#000000;
+  border-radius:12px;
+}
+.sub-heading-split{
+  color:#735F32;
+}
+
+.package-card:hover{
+  transform: scale(1.1);
+  font-size:23px;
+  background-color:#735F32;
+  border-radius:12px;
+}
+.package-button{
+  background-color:transparent;
+  border-color:#FFFFFF;
+  border-radius:10px;
+  color:#FFFFFF;
+}
+.package-button:hover{
+  background-color:#735F32;
+  border-color:#FFFFFF;
+  color:#FFFFFF;
+}
+
+.package-price{
+  font-size:18px !important;
+}
+.trail-text{
+  font-size:18px !important;
+}
