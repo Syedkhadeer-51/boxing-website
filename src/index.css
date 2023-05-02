@@ -10,8 +10,8 @@
   -webkit-text-size-adjust: 100%;
   overflow-x :hidden !important;
 }
-bocdy{
-  background:#000000;
+body{
+  background-color:#000000 !important;
 }
 
 .main-container{
