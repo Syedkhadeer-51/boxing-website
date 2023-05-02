@@ -5,7 +5,7 @@ import aboutImg from '../src/assets/about-us.png'
 
 const About = () => {
   return (
-    <div className='main-container p-0 m-0 d-flex align-items-center' id='About'>
+    <div className='main-container p-0 m-0' id='About'>
       <div className='row p-3 my-2'>
         <h4 className='heading-text text-white py-2 px-5 m-3 fw-bold animate__animated animate__fadeInLeft'>ABOUT<span className='sub-heading-split text-pri-green'> US</span></h4>
         <div className='col-md-6 col-12 image-section animate__animated animate__fadeInLeft d-flex align-items-center justify-content-center'>

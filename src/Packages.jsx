@@ -3,7 +3,7 @@ import aboutImg from '../src/assets/about-us.png'
 
 const Packages = () => {
     return (
-        <div className='main-container p-0 m-0 d-flex align-items-center' id='About'>
+        <div className='main-container p-0 m-0' id='About'>
             <div className='row p-3 my-2'>
                 <h4 className='heading-text text-white py-2 px-5 m-3 fw-bold animate__animated animate__fadeInLeft'>SPECIAL<span className='sub-heading-split text-pri-green'> PACKAGES</span></h4>
                 <div className="row d-flex justify-content-center align-items-center">
