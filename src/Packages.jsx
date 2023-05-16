@@ -1,5 +1,4 @@
-import React from 'react'
-import aboutImg from '../src/assets/about-us.png'
+import React from 'react';
 
 const Packages = () => {
     return (
