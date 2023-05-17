@@ -45,11 +45,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="text-center">
-                    <a href="" className="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Launch
-                        Modal Contact Form</a>
-                </div>
             </div>
         </div>
     )
