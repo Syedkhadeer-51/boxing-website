@@ -18,6 +18,19 @@ body{
   background-color:#000000;
   color:#FFFFFF;
 }
+.hero-section{
+  height: 100vh;
+  background-size: cover;
+  background-image: url('/src/assets/hero-bg.png');
+}
+.hero-heading{
+ font-family: 'Anton';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 80px;
+ line-height: 115.54%;
+ color: #FFFFFF;
+}
 .heading-text{
   font-family: 'Anton', sans-serif;
   border-left:5px solid #735F32;
@@ -62,10 +75,54 @@ body{
   border-color:#FFFFFF;
   color:#FFFFFF;
 }
-
 .package-price{
   font-size:18px !important;
 }
 .trail-text{
   font-size:18px !important;
 }
+.modal-content{
+  background-color: #000000 !important;
+}
+.modal-title{
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+.modal-header{
+  border: none !important;
+}
+@media (max-width: 800px) {
+ .hero-heading{
+  font-size: 60px;
+  
+ }
+ .hero-section{
+  background-image: url('src/assets/bg-hero-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75vh !important;
+ }
+}
+@media (max-width: 600px) {
+  .hero-heading{
+   font-size: 40px;
+  }
+  .hero-section{
+    background-image: url('src/assets/bg-hero-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh !important;
+   }
+ }
+ @media (max-width: 400px) {
+  .hero-section{
+    background-image: url('src/assets/bg-hero-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45vh !important;
+   }
+ }
