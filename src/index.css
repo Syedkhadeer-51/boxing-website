@@ -40,7 +40,7 @@ body{
   font-family: 'Hind', sans-serif;
   font-size:20px;
 }
-.prinary-btn{
+.primary-btn{
   background-color:#735F32;
   color:#FFFFFF;
   font-family: 'Anton', sans-serif;
@@ -92,8 +92,72 @@ body{
   line-height: 64px;
   color: #FFFFFF;
 }
+.action-info{
+  font-family: 'Anton', sans-serif;
+  color: #FFFFFF;
+  font-size: 30px;
+}
 .modal-header{
   border: none !important;
+}
+.form-icons{
+  background-color: #735F32;
+}
+.play-button{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.form-main-txt{
+ font-family: 'Hind';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 64px;
+}
+.form-control{
+  background: #262523 !important;
+  border-radius: 5px !important;
+  color: #FFFFFF;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+.form-control:focus{
+  color: lightgray !important;
+}
+.form-header-text{
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.nav-item{
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF !important;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+.nav-link{
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color: #FFFFFF;
+}
+.nav-item:hover{
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 @media (max-width: 800px) {
  .hero-heading{
@@ -117,6 +181,12 @@ body{
     background-size: contain;
     height: 60vh !important;
    }
+   .action-info{
+    font-size: 25px;
+  }
+  .nav-item{
+    font-size: 18px;
+  }
  }
  @media (max-width: 400px) {
   .hero-section{
@@ -125,4 +195,13 @@ body{
     background-size: contain;
     height: 45vh !important;
    }
+   .action-info{
+    font-size: 22px;
+  }
+  .nav-item{
+    font-size: 14px;
+  }
+  .contact-img-column {
+    display: none !important;
+  }
  }
